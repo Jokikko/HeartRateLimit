@@ -8,9 +8,9 @@ export default function App() {
   const [hrhigh, setHrhigh] = useState(0);
 
   function calculate() {
-    const resultlow = ((220 - age) * 0.65) ; // Replace comma with dot and parse as float
+    const resultlow = ((220 - age) * 0.65) ;
     setHrlow(resultlow);
-    const resulthigh = ((220 - age) * 0.85) ; // Replace comma with dot and parse as float
+    const resulthigh = ((220 - age) * 0.85) ;
     setHrhigh(resulthigh);
   }
 
